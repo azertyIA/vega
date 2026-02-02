@@ -1,38 +1,38 @@
 {
   "main": {
-    "id": "786f61717fb9a50c",
+    "id": "a07778582ea595b3",
     "type": "split",
     "children": [
       {
-        "id": "f520561189ec277d",
+        "id": "25e699705764ecd4",
         "type": "tabs",
         "children": [
           {
-            "id": "edd3bbe1f95edd0f",
+            "id": "2f906318d5cf9ec6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CASPY 511/Magnetic Resonance.md",
+                "file": "ENGEC 583/Bipolar Junction Transistor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Magnetic Resonance"
+              "title": "Bipolar Junction Transistor"
             }
           },
           {
-            "id": "c8f3cf940cdf9d9b",
+            "id": "1cba10433e9f4f73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CASMA 242/CASMA 242 LEC 5.md",
+                "file": "ENGEC JOB/Intro to PCBs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CASMA 242 LEC 5"
+              "title": "Intro to PCBs"
             }
           }
         ],
@@ -42,15 +42,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "19df04f6cd50ccbc",
+    "id": "8d33d07c6b4a8260",
     "type": "split",
     "children": [
       {
-        "id": "9d5c81af2907d1c1",
+        "id": "6e44cec8327c2b82",
         "type": "tabs",
         "children": [
           {
-            "id": "a337dec9b8689eec",
+            "id": "c0d613ab766bbb66",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +63,7 @@
             }
           },
           {
-            "id": "4c36aef5792c35ff",
+            "id": "d01f4cc81b740a2f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +80,7 @@
             }
           },
           {
-            "id": "c79a4f1b2ae9a0b9",
+            "id": "2133a8594b77fc18",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -93,51 +93,51 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "fcecfd19160f13df",
+    "id": "bb9d37e646d12039",
     "type": "split",
     "children": [
       {
-        "id": "82b91cc977a4baed",
+        "id": "202eb54deab4460d",
         "type": "tabs",
         "children": [
           {
-            "id": "22b7d815fbb5e5b5",
+            "id": "b4ea1aa2548c3ce2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CASPY 511 HW 1.md",
+                "file": "CASPY 511/QM Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CASPY 511 HW 1"
+              "title": "Backlinks for QM Fourier Transform"
             }
           },
           {
-            "id": "7a61604470842b5d",
+            "id": "5c21c7b4f8bd494c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Relativistic Quantum Mechanics.md",
+                "file": "CASPY 511/QM Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Relativistic Quantum Mechanics"
+              "title": "Outgoing links from QM Fourier Transform"
             }
           },
           {
-            "id": "beccb506c1e06300",
+            "id": "890744bcb7ac31a6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -152,18 +152,18 @@
             }
           },
           {
-            "id": "f949c05832fc9b38",
+            "id": "7cfc022bda4a8993",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Relativistic Quantum Mechanics.md",
+                "file": "CASPY 511/The First Quantized Field.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Relativistic Quantum Mechanics"
+              "title": "Outline of The First Quantized Field"
             }
           }
         ]
@@ -184,40 +184,55 @@
       "bases:Create new base": false
     }
   },
-  "active": "c8f3cf940cdf9d9b",
+  "active": "1cba10433e9f4f73",
   "lastOpenFiles": [
-    "CASPY 511/Magnetic Resonance.md",
-    "CASPY 511/CASPY 511 HW 3.md",
-    "CASPY 511/CASPY 511 HW 2 - Umar Mohd.md",
-    "CASMA 242/CASMA 242 LEC 5.md",
-    "ENGEC 455/ENGEC 455 LEC 6.md",
-    "CASPY 511/CASPY 511 HW 1 - Umar Mohd Rizal.md",
-    "ENGEC 311/ENGEC 311 LEC 6.md",
-    "ENGEC 311/ENGEC 311 LEC 5.md",
-    "ENGEC 455/ENGEC 455 LEC 4.md",
-    "CASPY 511/Quantum Pictures.md",
-    "CASPY 511/QM Axiom II.md",
-    "CASPY 511/CASPY 511 LEC 2.md",
-    "ENGEC 410/ENGEC 410 LEC 3.md",
+    "ENGEC JOB/Meeting 1.23.md",
+    "ENGEC JOB/CISE Alumni-Faculty Panel.md",
+    "ENGEC JOB/Microcontrollers.md",
+    "ENGEC JOB/Intro to PCBs.md",
+    "Pasted image 20260130141254.png",
+    "ENGEC 583/Bipolar Junction Transistor.md",
+    "Pasted image 20260130141111.png",
+    "Pasted image 20260129151234.png",
+    "Pasted image 20260129151033.png",
+    "Pasted image 20260129150829.png",
+    "Pasted image 20260129145117.png",
+    "ENGEC 583/Semiconductors.md",
     "ENGEC 410/ENGEC 410 LEC 4.md",
-    "CASMA 242/CASMA 242 LEC 4.md",
-    "CASPY 511/CASPY 511 LAB.md",
     "ENGEC 410/ENGEC 410 LEC 5.md",
-    "ENGEC 455/ENGEC 455 LEC 5.md",
-    "ENGEC 311/ENGEC 311 Pre-Lab A.md",
-    "ENGEC 311",
+    "ENGEC 410/ENGEC 410 LEC 7.md",
+    "ENGEC 410/ENGEC 410 LEC 10.md",
+    "ENGEC 410/ENGEC 410 LEC 11.md",
+    "Pasted image 20260129135235.png",
+    "ENGEC 583/Lenz' Law.md",
+    "ENGEC 583/Untitled.md",
+    "ENGEK 301/The Dot Product.md",
+    "ENGEC 413/C Language.md",
+    "ENGEC JOB/Unums.md",
+    "ENGEC 413",
+    "ENGEC 583/Intro to Real Electronics.md",
+    "ENGEC 583/Faraday's Law.md",
+    "ENGEK 301/Conservation of Stuff.md",
+    "ENGEK 381/Sampling.md",
+    "ENGEK 381/Independence.md",
+    "ENGEK 381/Conditional Probability.md",
+    "ENGEC 455/ENGEC 455 Final Review.md",
+    "CASPY 511/Hamiltonian Mechanics.md",
+    "CASPY 511/Lagrangian Mechanics.md",
+    "Poisson Brackets.md",
+    "HUBSJ 101",
+    "ENGEC JOB",
+    "ENGEK 210",
+    "ENGEC 583",
+    "ENGEK 301",
+    "ENGEK 381",
+    "Pasted image 20251217060658.png",
+    "Pasted image 20251217060638.png",
+    "Pasted image 20251217055129.png",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Untitled 2.base",
     "Untitled.base",
-    "CASMA 242",
-    "CASPY 511/QM Axiom I.md",
-    "CASPY 511/QM Axioms.md",
-    "ENGEC 455/ENGEC 455 LEC 3.md",
-    "ENGEC 455/ENGEC 455 LEC 2.md",
-    "CASPY 511/QM Axiom IV.md",
-    "CASPY 511/QM Axiom III.md",
-    "ENGEC 455/Untitled.canvas",
-    "a Hamiltonian.md",
-    "ENGEC 455",
-    "ENGEC 410",
-    "CASPY 511"
+    "Untitled 1.base"
   ]
 }

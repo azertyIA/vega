@@ -43,7 +43,7 @@ $\vec E_s$ can be written as its own wave:
 
 But you can put a vector quantity on this scalar for that particle to propagate in a direction. This uses the idea of plane waves, which are just very far away circular waves.
 > $\vec k=\hat xk_x+\hat yk_y+\hat zk_z$
-> $\vec r=\vec xx+\vec yy+\vec zz$
+> $\vec r=\hat xx+\hat yy+\hat zz$
 > $\vec k\cdot\vec r=k_xx+k_yy+k_zz$
 
 Given light though, group velocity, phase velocity, and the speed of light are all the same.

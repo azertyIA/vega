@@ -1,0 +1,17 @@
+AI has a lot of benefits but you need to have the right policies in place to ensure nothing goes wrong. Because there is very little integrity when it comes to data protections and LLMs, it's a bit hesitant in experimental practice. Hallucinations are scary, so its important to ensure that there are guardrails in the pipeline. People really like features in startups, but it's really hard for startups to keep up with newer security standards that society is adopting. 
+### Robotics
+LLMs typically are introduced into robots by having it call an API in the machine to push an actuator. But just use a normal algorithm/transformer? LLMs are not all that... Robotics have to be supervised to avoid loopholes.
+### Classes and Industry
+AI should not be let free, but it will happen. AI will be just about as prominent as Google was back then, so to fight back, have AI help students think critically. Add to the experience, don't replace it. To better introduce it in the classroom, try to use AI as a frame, and put the students in the shoes of the professor. 
+
+In industry, AI is used to enhance productivity, not replace thinking. It's good for back and forth conversation and coding, but it does not substitute your knowledge. From the perspective of startups, AI is used as an automation process. This automation must also require human approvement. Learning how to code with AI can be framed with best practices. In the government scene, LLMs are NOT to be used... as it should...
+
+But what about the next generation? We assume that the professors of this era grant the correct guidance to our students. As long as students learn to question everything, then everyone should turn out for the better. Should we prioritize critical thinking or multitasking?
+### Research
+How should grad students attack research when AI can just make an entire research paper? Hopefully, let's hope that you don't use AI because then you're just that replaceable. If you want to be on the frontier of science, then LLMs won't pull it out. But hey, it's a tower of Babel and a good information compiler.
+### Culture
+People will probably think that PhD is different than being in startup. Which it is. But investors and employees are just peer reviewers and your lab mates. Allegedly. For startups, you have to be deep into the question with people you've never met. Don't die is a popular saying. You can also start a company if you have too much free time. Optical computing is kind of hard lmao. It's a different kind of challenge than what we see in academia. 
+
+The difference between big industry and startups is that one is a lot more expensive to get balls rolling. Software coming out of startups is usually good software that is affordable that people might prefer over bigger industries. So these big industries are able to use more expensive products. It's about seeing it through when you have the money. Strategy enterprise exploded because companies decided to believe in visions and succeeded. 
+### Lightning Round
+AI Art isn't real art. Nobody would take a nap. No surgery. Finding a research topic is very stressful because it seems like a very important decision, but you have to find your first **excited** topic. Find a paper that you like and think about what the next step is.

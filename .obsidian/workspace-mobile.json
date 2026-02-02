@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "864b862701fdc76f",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0a1a4d56acf6561",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c90ea7b87256e510",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CASPY 511/CASPY 511 HW 9 - Umar Mohd Rizal(1).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CASPY 511 HW 9 - Umar Mohd Rizal(1)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "032e03f020a2d1ed",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "18087fde69799aa4",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "a1b39477395f1250",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "f0d4b52a9b2bb71b",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "fa962e8a5743b450",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "955cd9d44b40032e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "bf4469faafd9128b",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "ENGEC 455/Transmission Lines.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "42753682b636d61e",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "ENGEC 455/Smith Charts.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "b18d56454fbff456",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "ENGEC 455/Smith Charts.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c90ea7b87256e510",
+  "lastOpenFiles": [
+    "CASPY 511/CASPY 511 HW 10 - Umar Mohd Rizal.md",
+    "CASPY 511 Final.md",
+    "Gram-Schmidt Process.md",
+    "ENGEC 455/Transmission Lines.md",
+    "ENGEC 455/Smith Charts.md"
+  ]
+}

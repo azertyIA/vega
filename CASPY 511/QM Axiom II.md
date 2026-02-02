@@ -1,32 +1,32 @@
 #PY511 
-## Evolution
-Given:
-> $\ket{\Psi(t_0)}=\ket{\psi_0}$
+The second of five [[QM Axioms]].
+## Quantum Mechanics
 
-One important things about axiom 2 is that it works on a time derivative and a Hamiltonian:
-> $i\hbar\partial_t\ket{\Psi(t)}=\hat H(t)\ket{\Psi(t)}$
-> $\partial_t\ket{\Psi(t)}=-\frac{i}{\hbar}\hat H(t)\ket{\Psi(t)}$
-
-Because $\psi_0$ is in the same space as $\psi(t)$ there should be some mapping from one vector to the next. Let's say this mapping depends on both $t$ and $t_0$:
-> $\ket{\Psi(t)}=\hat U(t, t_0)\ket{\Psi(t_0)}$ (time evolution operator)
-
-What is the equation satisfied by $\hat U(t,t_0)$? How can we get here from the original Hamiltonian evolution? 
-
-As an aside, for the sake of it whatever's inside the "ket" is just a label, as long as it's unique:
-> $\ket{\Psi, t}=\ket{\Psi(t)}$
-> $\ket{n}=\ket{(n+\frac{1}{2})\hbar\omega_0}$
-
-You *should not* manipulate the stuff inside the "ket." It is just a label.
-> $\ket{2n}\neq2\ket{n}=\ket{n}$
-
-Back to it. Just take the old equation and plug in a $\hat U$:
-> $i\hbar\partial_t\hat U(t,t_0)\ket{\Psi(t)}=\hat H(t)\hat U(t,t_0)\ket{\Psi(t)}$
-> $[i\hbar\partial_t\hat U(t,t_0)]\ket{\Psi(t)}=[\hat H(t)\hat U(t,t_0)]\ket{\Psi(t)}$
-> $i\hbar\partial_t\hat U(t,t_0)=\hat H(t)\hat U(t,t_0)$
-> $\partial_t\hat U(t,t_0)=-\frac{i}{\hbar}\hat H(t)\hat U(t,t_0)$
-
-Or written differently:
-> $\frac{\partial\hat U(t,t_0)}{\partial t}=-\frac{i}{\hbar}\hat H\hat U(t,t_0)$
+When moving to quantum mechanics from [[Hamiltonian Mechanics]], the Poisson Brackets are replaced with commutators to satisfy Heisenberg's Uncertainty Principle:
+$$\{q,p\}=1\to[\hat q, \hat p]=i\hbar$$
+Normalizing this gets us a general method to convert Poisson Brackets to quantum commutators. This in turn, will grant us with the equation of motion.
+$$\{A,B\}\to\frac 1{i\hbar}[\hat A, \hat B]$$
+$$\partial_tA=\{A,H\}\to i\hbar\partial_t\hat A=[\hat A, \hat H]$$
+$$i\hbar\partial_t\hat A(t)\ket\psi=[\hat A(t),\hat H]\ket\psi$$
+Assume the existence of a time-evolution operator $U(t_0,t)$ such that it acts on a ket to evolve it further in time:
+$$U(t_0,t)\ket{\psi,t_0}=\ket{\psi,t}$$
+$$\bra{\psi,t_0}U^{\dagger}(t_0,t)=\bra{\psi,t}$$
+We can now shift our operator to a time-independent Schrodinger picture:
+$$\bra{\psi,t_0}\hat A(t)\ket{\psi,t_0}=\braket{\psi,t|\hat A_S|\psi,t}$$
+$$\boxed{\hat A(t)=\hat U^\dagger(t_0,t)\hat A_S\hat U(t_0,t)}$$
+$$\partial_t\hat A(t)=\partial_t\hat U^\dagger\hat A_S\hat U+\hat U^\dagger\hat A_S\partial_t\hat U=\frac 1{i\hbar}[\hat U^\dagger \hat A_S\hat U,\hat H]$$
+However, the Hamiltonian shouldn't change over time. If it did then, it would also have time evolution operators and it would be bubbled up inside anyways.
+$$=\partial_t\hat U^\dagger\hat A_S\hat U+\hat U^\dagger\hat A_S\partial_t\hat U=\frac 1{i\hbar}(\hat U^\dagger \hat A_S\hat H\hat U-\hat U^\dagger\hat H \hat A_S\hat U)$$
+$$=\partial_t\hat U^\dagger\hat A_S\hat U+\hat U^\dagger\hat A_S\partial_t\hat U=\hat U^\dagger \hat A_S(\frac 1{i\hbar}\hat H)\hat U-(\frac 1{i\hbar}\hat H)\hat U^\dagger\hat A_S\hat U$$
+Luckily associativity will always work:
+$$=(\partial_t\hat U)^\dagger\hat A_S\hat U+\hat U^\dagger\hat A_S(\partial_t\hat U)=\hat U^\dagger \hat A_S(\frac 1{i\hbar}\hat H\hat U)+(\frac 1{i\hbar}\hat H\hat U)^\dagger\hat A_S\hat U$$
+$$=(\partial_t\hat U)^\dagger\hat A_S\hat U+\hat U^\dagger\hat A_S(\partial_t\hat U)=\hat U^\dagger \hat A_S(\frac 1{i\hbar}\hat H\hat U)+(\frac 1{i\hbar}\hat H\hat U)^\dagger\hat A_S\hat U$$
+So we're led to believe that the Hamiltonian has something to do with the derivative of the time evolution operator. But this is very powerful.
+$$i\hbar\partial_t\hat U=\hat H\hat U$$
+$$i\hbar\partial_t\hat U\ket{\psi,t_0}=\hat H\hat U\ket{\psi,t_0}$$
+$$\boxed{i\hbar\partial_t\ket{\psi,t}=\hat H\ket{\psi,t}}$$
+Axiom II is set, and the time evolution operator given a time-independent Hamiltonian has the following form:
+$$\hat U(t)=\exp(t\partial_t)=\exp(-i\hat Ht/\hbar)$$
 
 Here it should be noted that this behavior is in operator "Banach" space. A space without norms defined by an inner product. The two operators are identical.
 
@@ -78,5 +78,5 @@ We can multiply this by $e^{+\frac{i}{\hbar}tE_0}$ and the two will be equal bec
 
 Even for a time-independent Hamiltonian, the state ket will always be time dependent. However, there is no observable you can perform that shows this behavior.
 > $\ket{\Psi,t}=e^{-\frac{i}{\hbar}\hat H_nt}\ket{n}$
-> 	$\ket{\Psi,t}=e^{-\frac{i}{\hbar}E_nt}\ket{n}$
+> $\ket{\Psi,t}=e^{-\frac{i}{\hbar}E_nt}\ket{n}$
 > Where $\ket{n}$ is a state with $E_n$ energy.

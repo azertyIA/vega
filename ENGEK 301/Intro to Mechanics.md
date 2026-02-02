@@ -1,0 +1,1 @@
+Time is a dimension. Seconds is a unit. Unit conversions convert units into other units. Usually using a number to transfer between the same dimension. This ratio will and should be equal to $1$.

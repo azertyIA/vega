@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "3475af675de21439",
+    "type": "split",
+    "children": [
+      {
+        "id": "29e262837d4ea9e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9cde22c04e8e6d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CASPY 511 HW 3 - Umar Mohd Rizal.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CASPY 511 HW 3 - Umar Mohd Rizal"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "79933eaadb56c763",
+    "type": "split",
+    "children": [
+      {
+        "id": "837349a76ad836c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a34d0a5256bc8a0d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "dc3e919f4ebc16b4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c164e71aea5cbb49",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a3955e8c90dedccb",
+    "type": "split",
+    "children": [
+      {
+        "id": "32a0d26fb0d89783",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "232150d86ad09d41",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CASPY 511 HW 3 - Umar Mohd Rizal.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CASPY 511 HW 3 - Umar Mohd Rizal"
+            }
+          },
+          {
+            "id": "8db3ae6ea2aea8c9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CASPY 511 HW 3 - Umar Mohd Rizal.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CASPY 511 HW 3 - Umar Mohd Rizal"
+            }
+          },
+          {
+            "id": "b2b80f77369caeab",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "aae473918e00ecbb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CASPY 511 HW 3 - Umar Mohd Rizal.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CASPY 511 HW 3 - Umar Mohd Rizal"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b9cde22c04e8e6d2",
+  "lastOpenFiles": []
+}

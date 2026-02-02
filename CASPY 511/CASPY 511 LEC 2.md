@@ -7,3 +7,7 @@ Qubits are a thing:
 Wavefunctions are superpositions of both of these states:
 > $c_1\ket{0}+c_2\ket{1}$
 
+Since when did this work? I 
+
+Since when did this work? I
+$c_1\ket1$

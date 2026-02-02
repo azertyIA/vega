@@ -42,3 +42,48 @@ The eigenvalues to this are $\lambda=\pm1$. The eigenvectors requires a little m
 > $\ket{\Psi}_{-1}=\cos\frac\theta2\ket{0}+e^{-i\phi}\sin\frac\theta2\ket{1}$
 
 So we can plot nearly anything on a Block Sphere. And It looks like spherical coordinates. They physically aren't perpendicular but their states are still orthogonal. Just some spinor shit.
+
+Let's consider a spin-1/2 proton in a uniform B field. Magnetic waves could either be linear, circular, or ellipse in polarization. 
+> $\vec B(t)=B_0\hat z+B_1\hat e_x\cos\omega t$
+> $\vec B(t)=B_0\hat z+B_1(\hat e_x\cos\omega t+\hat e_y\sin\omega t)$
+> $\vec B(t)=B_0\hat z+B_1(\hat e_x\cos\omega t-\hat e_y\sin\omega t)$
+
+So the Hamiltonian:
+> $\hat H=-\frac12\hbar\omega_L\sigma_z-\frac12\hbar\Omega_1(\sigma_x\cos\omega t-\sigma_y\sin\omega t)$ (circular clockwise case)
+
+No exact solution is known for the linear case. But let's put everything in a matrix:
+> $\hat H=\begin{pmatrix}-\frac12\hbar\omega_L&\frac12\hbar\Omega_1e^{+i\omega t}\\\frac12\hbar\Omega_1e^{-i\omega t}&+\frac12\hbar\omega_L\end{pmatrix}=\hat H_0+\hat V(t)$
+> $\hat H_0=\begin{pmatrix}-\frac12\hbar\omega_L&0\\0&+\frac12\hbar\omega_L\end{pmatrix}$
+> $\hat V=\begin{pmatrix}0&\frac12\hbar\Omega_1e^{+i\omega t}\\\frac12\hbar\Omega_1e^{-i\omega t}&0\end{pmatrix}$
+
+In PY452, you would use the Schrodinger picture:
+> $i\hbar\partial_t\ket{\Psi_s(t)}=\hat H_S\ket{\Psi_S(t)}$
+> $\ket{\Psi_S(t)}=\alpha_0(t)\ket0+\alpha_1(t)\ket1$
+
+Then just solve the differential equations. However in the Dirac Interaction Picture:
+> $\ket{\Psi_I,t}=e^{-\frac1{i\hbar}\hat H_0t}\ket{\Psi_S}$
+> $i\hbar\partial_t\ket{\Psi_I,t}=e^{-\frac1{i\hbar}\hat H_0t}\hat V(t)e^{+\frac1{i\hbar}\hat H_0t}\ket{\Psi_S}$
+
+Now we can work in a diagonal matrix. Recall that the Interaction Picture multiplies the the state by the opposite time evolutionary term, thereby putting the "operators to rest."  Dirac's picture is the crowd, Heisenberg's is the ball and Schrodinger's is the world.
+
+Rabi had an amazing idea. What if we created a rotating frame, where we can just jump onto the $\vec B_1$ frame.
+> $\ket{\Psi_R,t}=e^{-\frac{i\omega t\sigma_z}2}\ket{\Psi_S,t}$
+> $i\hbar\partial_t\ket{\Psi_R,t}=\hat H\ket{\Psi_R,t}$
+> $i\hbar\partial_t(e^{-\frac{i\omega t\sigma_z}2}\ket{\Psi_S,t})$
+> $i\hbar((-\frac{i\omega\sigma_z}2)e^{-\frac{i\omega t\sigma_z}2}\ket{\Psi_S,t}+e^{-\frac{i\omega t\sigma_z}2}\partial_t\ket{\Psi_S,t})$
+> $(i\hbar(-\frac{i\omega\sigma_z}2)e^{-\frac{i\omega t\sigma_z}2}\ket{\Psi_S,t}+e^{-\frac{i\omega t\sigma_z}2}(\hat H_0+\hat V_S(t))\ket{\Psi_S,t})$
+> $(-i\hbar\frac{i\omega\sigma_z}2e^{-\frac{i\omega t\sigma_z}2}\ket{\Psi_S,t}+e^{-\frac{i\omega t\sigma_z}2}(\hat H_0+\hat V_S(t))\ket{\Psi_S,t}$
+> $(\frac12\hbar\omega\sigma_ze^{-\frac{i\omega t\sigma_z}2}+e^{-\frac{i\omega t\sigma_z}2}(\hat H_0+\hat V_S(t))\ket{\Psi_S,t}$
+> $(\frac12\hbar\omega\sigma_z+e^{-\frac{i\omega t\sigma_z}2}(\hat H_0+\hat V_S(t))e^{+\frac{i\omega t\sigma_z}2})\ket{\Psi_R,t}$ ($H_0$ commutes with the exponential)
+> $(\frac12\hbar(\omega-\omega_L)\sigma_z+e^{-\frac{i\omega t\sigma_z}2}\hat V_S(t)e^{+\frac{i\omega t\sigma_z}2})\ket{\Psi_R,t}$
+> $(\frac12\hbar(\omega-\omega_L)\sigma_z+e^{-\frac{i\omega t\sigma_z}2}\hat V_S(t)e^{+\frac{i\omega t\sigma_z}2})\ket{\Psi_R,t}$
+
+The second term is literally:
+> $\begin{pmatrix}0&\gamma\\\gamma&0\end{pmatrix}$
+
+So now we just solve for the Hamiltonian which can give us the probability. Which I won't write out.
+> $P_{0\to1}(t)=(1+\frac{\hbar(\omega-\omega_L)}{2\gamma}^2)^{-1}\sin^2(\frac\gamma\hbar\sqrt{1+\frac{\hbar(\omega-\omega_L)}{2\gamma}^2}t)$ (generalized Rabi frequency)
+
+The frequency domain when you change the detuning gives you a Lorentzian.
+
+Now you can pulse this shit with some time and you get any gate at some angle. This frame really just cancels out the natural precession.
