@@ -13,3 +13,8 @@ There are a few probes, but there is a general rule of thumb. **Diagnostic instr
 
 Kirchhoff's Voltage Law deals with **conservation of energy**, but the Kirchhoff's Current Law deals with **conservation of charge**, with the *mechanism that charge cannot be accumulated in one place*. 
 
+### Lenz's Law
+Let's say we have four nodes separated by two resistors in a ring. There was no voltage drop between two nodes anywhere without the magnetic field. However, when there was a magnetic field, there was a current running through the things. Faraday's law definitely obeys the conservation of energy.
+$$\nabla\times\vec E=-\partial_tB$$
+$$\iint d\vec s\cdot(\nabla\times\vec E)=\oint d\vec l\cdot\vec E=-\partial_t\Phi_B=-\partial_t\iint d\vec s\cdot\vec B$$
+This process is given by Stokes' Theorem. The units of the electric field integrated across a distance is voltage. So, a changing magnetic flux leads to an induced voltage. Magnetic fields separate charges in a moving conductive rod. Charge separation leads to electric fields that want to "oppose" the magnetic fields around it.

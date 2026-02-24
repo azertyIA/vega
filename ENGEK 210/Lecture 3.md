@@ -1,0 +1,1 @@
+This one's about electronics. If you need more power in something controlled by an Arduino, use a MOSFET. PWM leads to better interpolation between modes of operation. 

@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "25e699705764ecd4",
+        "id": "e635179c23c2d2ab",
         "type": "tabs",
         "children": [
           {
-            "id": "2f906318d5cf9ec6",
+            "id": "da6ece38cb2051da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ENGEC 583/Bipolar Junction Transistor.md",
+                "file": "ENGEC JOB/Papers/MoEntwine Parallel Wafer Inference.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bipolar Junction Transistor"
-            }
-          },
-          {
-            "id": "1cba10433e9f4f73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ENGEC JOB/Intro to PCBs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Intro to PCBs"
+              "title": "MoEntwine Parallel Wafer Inference"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,55 +169,55 @@
       "bases:Create new base": false
     }
   },
-  "active": "1cba10433e9f4f73",
+  "active": "da6ece38cb2051da",
   "lastOpenFiles": [
-    "ENGEC JOB/Meeting 1.23.md",
-    "ENGEC JOB/CISE Alumni-Faculty Panel.md",
-    "ENGEC JOB/Microcontrollers.md",
-    "ENGEC JOB/Intro to PCBs.md",
-    "Pasted image 20260130141254.png",
-    "ENGEC 583/Bipolar Junction Transistor.md",
-    "Pasted image 20260130141111.png",
-    "Pasted image 20260129151234.png",
-    "Pasted image 20260129151033.png",
-    "Pasted image 20260129150829.png",
-    "Pasted image 20260129145117.png",
+    "ENGEC JOB/Papers/TEMP Wafer Partition Framework.md",
+    "ENGEC JOB/Papers/MoEntwine Parallel Wafer Inference.md",
+    "ENGEC JOB/Meeting 2.13.md",
+    "ENGEC MLS/3. Deep Learning Primer.md",
+    "ENGEC JOB/Dynamic Linear Hashing.md",
+    "ENGEC JOB/Meeting 2.20.md",
+    "ENGEC 583/Inductors and Magnetism.md",
+    "ENGEC 583/Power Electronics.md",
     "ENGEC 583/Semiconductors.md",
-    "ENGEC 410/ENGEC 410 LEC 4.md",
-    "ENGEC 410/ENGEC 410 LEC 5.md",
-    "ENGEC 410/ENGEC 410 LEC 7.md",
-    "ENGEC 410/ENGEC 410 LEC 10.md",
-    "ENGEC 410/ENGEC 410 LEC 11.md",
-    "Pasted image 20260129135235.png",
-    "ENGEC 583/Lenz' Law.md",
-    "ENGEC 583/Untitled.md",
-    "ENGEK 301/The Dot Product.md",
-    "ENGEC 413/C Language.md",
-    "ENGEC JOB/Unums.md",
-    "ENGEC 413",
-    "ENGEC 583/Intro to Real Electronics.md",
+    "ENGEC 583/Solar Energy.md",
+    "ENGEC 583/Time Averages.md",
+    "ENGEC 583/Atomic Circuits.md",
+    "ENGEC 583/Bipolar Junction Transistor.md",
     "ENGEC 583/Faraday's Law.md",
-    "ENGEK 301/Conservation of Stuff.md",
-    "ENGEK 381/Sampling.md",
-    "ENGEK 381/Independence.md",
-    "ENGEK 381/Conditional Probability.md",
-    "ENGEC 455/ENGEC 455 Final Review.md",
-    "CASPY 511/Hamiltonian Mechanics.md",
-    "CASPY 511/Lagrangian Mechanics.md",
-    "Poisson Brackets.md",
+    "ENGEC 583/Energy Recovery.md",
+    "ENGEC 583/Intro to Real Electronics.md",
+    "ENGEC 583/MOS Field Effect Transistor.md",
+    "ENGEC 583/Operational Amplifier.md",
+    "Pasted image 20260219135947.png",
+    "ENGEC 583/Lenz' Law.md",
+    "ENGEC MLS/6. Data Engineering.md",
+    "ENGEC MLS/4. Deep NN Architectures.md",
+    "ENGEC MLS/1. Systems Foundations.md",
+    "ENGEC MLS/2. Machine Learning Systems.md",
+    "ENGEC JOB/Storage Fundamentals.md",
+    "ENGEC 413/Hardware Connections.md",
+    "ENGEC 413/Hardware Arithmetic.md",
+    "ENGEC JOB/Papers",
+    "Pasted image 20260212145926.png",
+    "ENGEC MLS",
+    "Pasted image 20260210150613.png",
+    "Pasted image 20260205150644.png",
+    "Pasted image 20260205142858.png",
+    "Pasted image 20260205140728.png",
+    "Pasted image 20260203154233.png",
+    "Pasted image 20260203154154.png",
+    "Pasted image 20260203145124.png",
+    "Pasted image 20260203145122.png",
+    "ENGEC 413",
     "HUBSJ 101",
     "ENGEC JOB",
     "ENGEK 210",
     "ENGEC 583",
     "ENGEK 301",
     "ENGEK 381",
-    "Pasted image 20251217060658.png",
-    "Pasted image 20251217060638.png",
-    "Pasted image 20251217055129.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Untitled 2.base",
-    "Untitled.base",
-    "Untitled 1.base"
+    "Untitled 2.base"
   ]
 }

@@ -1,0 +1,3 @@
+In a setting where multiple parties try to compute a function, we use MPC as a scheme to solve a problem. There are multiple data centers that need to manage their power usage. If data centers are allowed to collaborate then they are much better off to balance the power usage. Especially with the addition of the Power Balancer party, which could be malicious. 
+
+Prof. Joshi is not convinced that the motivation is completely here. Apparently, we're led to believe that the data centers are not competent enough to keep track of and balance its own power. So how does working with another data center help balance the power of one? I'm not too sure how 

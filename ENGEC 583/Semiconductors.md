@@ -22,4 +22,7 @@ $$V_r=r_Di_D=\eta V_t=\eta k_BT/e$$
 
 You'll find that the voltage drop across the resistor is extremely small anyways, so most people just use the battery at $0.7$ V. So let's recap: exponential -> linear -> resistor too small -> infinite. Power is not generated in a passive element (aka the thing should not be amplified). 
 ### The Photodiode
-If you shoot photons at the built-in electric field $\vec E$, then they will start shooting off electrons off their orbit, and will start moving towards the positive side of the electric field (in group V).
+![[Pasted image 20260205140728.png]]
+If you shoot photons at the built-in electric field $\vec E$, then they will start shooting off electrons off their orbit, and will start moving towards the positive side of the electric field (in group V). As a result the current moves from group V to the group III block. We typically put a load between the P and N blocks at this point.
+
+In lab 1, base voltage is meant to represent the sunlight. The current-voltage characteristics on the load is the graph on the far left. 

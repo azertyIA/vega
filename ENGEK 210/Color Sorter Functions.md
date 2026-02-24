@@ -1,0 +1,12 @@
+Functions the color sorter include the need to:
+- supply energy
+- isolate one candy out of many
+- detect a color
+- encode/decode information about color
+- calculate the candy's path
+- move the candy
+- store the candy
+- enclose the sorter
+- hold up components
+- dissipate heat (from used energy)
+- indicate sorter status (standby/finished vs processing)
