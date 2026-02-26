@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ENGEC JOB/Papers/MoEntwine Parallel Wafer Inference.md",
+                "file": "ENGEC 583/Atomic Circuits.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MoEntwine Parallel Wafer Inference"
+              "title": "Atomic Circuits"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bb9d37e646d12039",
@@ -171,33 +172,35 @@
   },
   "active": "da6ece38cb2051da",
   "lastOpenFiles": [
-    "ENGEC JOB/Papers/TEMP Wafer Partition Framework.md",
+    "ENGEC 583/Atomic Circuits.md",
+    "Pasted image 20260225202510.png",
+    "Pasted image 20260225201849.png",
+    "Pasted image 20260225201129.png",
+    "ENGEC 583/MOS Field Effect Transistor.md",
+    "ENGEC 583/Bipolar Junction Transistor.md",
+    "ENGEC 583/Energy Recovery.md",
+    "ENGEC 583/Faraday's Law.md",
+    "ENGEC 583/Inductors and Magnetism.md",
+    "ENGEC JOB/Papers/HDPAT Translation for Wafer GPUs.md",
+    "ENGEK 210/Color Sorter Objectives.md",
+    "ENGEK 210/Color Sorter Functions.md",
+    "ENGEC MLS/2. Machine Learning Systems.md",
+    "ENGEC MLS/1. Systems Foundations.md",
     "ENGEC JOB/Papers/MoEntwine Parallel Wafer Inference.md",
+    "ENGEC JOB/Papers/TEMP Wafer Partition Framework.md",
     "ENGEC JOB/Meeting 2.13.md",
     "ENGEC MLS/3. Deep Learning Primer.md",
     "ENGEC JOB/Dynamic Linear Hashing.md",
     "ENGEC JOB/Meeting 2.20.md",
-    "ENGEC 583/Inductors and Magnetism.md",
     "ENGEC 583/Power Electronics.md",
     "ENGEC 583/Semiconductors.md",
     "ENGEC 583/Solar Energy.md",
     "ENGEC 583/Time Averages.md",
-    "ENGEC 583/Atomic Circuits.md",
-    "ENGEC 583/Bipolar Junction Transistor.md",
-    "ENGEC 583/Faraday's Law.md",
-    "ENGEC 583/Energy Recovery.md",
     "ENGEC 583/Intro to Real Electronics.md",
-    "ENGEC 583/MOS Field Effect Transistor.md",
     "ENGEC 583/Operational Amplifier.md",
     "Pasted image 20260219135947.png",
     "ENGEC 583/Lenz' Law.md",
     "ENGEC MLS/6. Data Engineering.md",
-    "ENGEC MLS/4. Deep NN Architectures.md",
-    "ENGEC MLS/1. Systems Foundations.md",
-    "ENGEC MLS/2. Machine Learning Systems.md",
-    "ENGEC JOB/Storage Fundamentals.md",
-    "ENGEC 413/Hardware Connections.md",
-    "ENGEC 413/Hardware Arithmetic.md",
     "ENGEC JOB/Papers",
     "Pasted image 20260212145926.png",
     "ENGEC MLS",
@@ -206,9 +209,6 @@
     "Pasted image 20260205142858.png",
     "Pasted image 20260205140728.png",
     "Pasted image 20260203154233.png",
-    "Pasted image 20260203154154.png",
-    "Pasted image 20260203145124.png",
-    "Pasted image 20260203145122.png",
     "ENGEC 413",
     "HUBSJ 101",
     "ENGEC JOB",
