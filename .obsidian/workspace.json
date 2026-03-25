@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "Atomic Circuits"
             }
+          },
+          {
+            "id": "84b5c41d2ec7bf68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ENGEC JOB/Dynamic Linear Hashing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dynamic Linear Hashing"
+            }
+          },
+          {
+            "id": "fbb4695d848c9a6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Grimoire.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Grimoire"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,9 +199,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "da6ece38cb2051da",
+  "active": "fbb4695d848c9a6e",
   "lastOpenFiles": [
+    "The Grimoire.md",
     "ENGEC 583/Atomic Circuits.md",
+    "Pasted image 20260319013521.png",
+    "ENGEC JOB/Dynamic Linear Hashing.md",
+    "Untitled 1.md",
+    "ENGEC 413/Memory.md",
+    "ENGEC 583/Deliverables/ENGEC 583 HW 4 - Umar Mohd Rizal.md",
+    "CASPY 511/Lattice Gauge Theory.md",
+    "ENGEC 583/Deliverables",
+    "ENGEC 413/Lab 2 - Umar Mohd Rizal.md",
+    "CASPY 511/Discrete Derivatives.md",
+    "ENGEK 301/Trusses.md",
+    "ENGEC JOB/Meetings/Meeting 1.23.md",
+    "ENGEC JOB/Intro to PCBs.md",
+    "CASPY 511/Deliverables/CASPY 511 Exam 2 - Umar Mohd Rizal.md",
+    "ENGEC JOB/Meetings",
+    "CASPY 511/Deliverables",
+    "Pasted image 20260307131835.png",
+    "Pasted image 20260307130912.png",
     "Pasted image 20260225202510.png",
     "Pasted image 20260225201849.png",
     "Pasted image 20260225201129.png",
@@ -188,36 +235,18 @@
     "ENGEC MLS/1. Systems Foundations.md",
     "ENGEC JOB/Papers/MoEntwine Parallel Wafer Inference.md",
     "ENGEC JOB/Papers/TEMP Wafer Partition Framework.md",
-    "ENGEC JOB/Meeting 2.13.md",
-    "ENGEC MLS/3. Deep Learning Primer.md",
-    "ENGEC JOB/Dynamic Linear Hashing.md",
-    "ENGEC JOB/Meeting 2.20.md",
-    "ENGEC 583/Power Electronics.md",
-    "ENGEC 583/Semiconductors.md",
-    "ENGEC 583/Solar Energy.md",
-    "ENGEC 583/Time Averages.md",
-    "ENGEC 583/Intro to Real Electronics.md",
-    "ENGEC 583/Operational Amplifier.md",
     "Pasted image 20260219135947.png",
-    "ENGEC 583/Lenz' Law.md",
-    "ENGEC MLS/6. Data Engineering.md",
     "ENGEC JOB/Papers",
     "Pasted image 20260212145926.png",
     "ENGEC MLS",
     "Pasted image 20260210150613.png",
     "Pasted image 20260205150644.png",
-    "Pasted image 20260205142858.png",
-    "Pasted image 20260205140728.png",
-    "Pasted image 20260203154233.png",
     "ENGEC 413",
     "HUBSJ 101",
     "ENGEC JOB",
     "ENGEK 210",
     "ENGEC 583",
-    "ENGEK 301",
-    "ENGEK 381",
     "Untitled 1.canvas",
-    "Untitled.canvas",
-    "Untitled 2.base"
+    "Untitled.canvas"
   ]
 }
